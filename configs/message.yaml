@@ -1,0 +1,44 @@
+error:
+    unknown:
+        code: 409
+        message: Some Error Occurred. Try After Some Time
+    network:
+        code: 500
+        message: Network Error. Try After Some Time
+    dBEr:
+        code: 409
+        message: Database Error. Try After Some Time
+    tokenNA:
+        code: 401
+        message: Missing Valid Token
+    tokenNF:
+        code: 401
+        message: Invalid Token / Token Expired
+    requiredInfo:
+        code: 409
+        message: Missing Required Information
+    patternEr:
+        code: 409
+        message: Invalid Data Format
+success:
+    recordNA:
+        code: 200
+        message: Record Not Found
+    recordFound:
+        code: 200
+        message: Record Found
+    created:
+        code: 200
+        message: Created Successfully
+    added:
+        code: 200
+        message: Added Successfully
+    saved:
+        code: 200
+        message: Saved Successfully
+    updated:
+        code: 200
+        message: Updated Successfully
+    deleted:
+        code: 200
+        message: Deleted Successfully

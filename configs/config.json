@@ -1,0 +1,108 @@
+{
+  "userStatus": {
+    "active": 1,
+    "inactive": 2,
+    "suspended": 3,
+    "reported": 4,
+    "blocked": 5,
+    "approved": 6,
+    "unapproved": 7
+  },
+  "bookingStatus": {
+    "confirmed": 1,
+    "started": 2,
+    "finished": 3,
+    "cancelledByDriver": 4,
+<<<<<<< HEAD
+    "cancelledByUser": 5
+=======
+    "cancelledByUser": 5,
+    "waitingForapproval": 6
+>>>>>>> 1d9e114f08b8bfd1b214ffcb0fa0fbef07bf05e1
+  },
+  "role": {
+    "none": 0,
+    "admin": 1,
+    "driver": 2,
+    "customer": 3
+  },
+<<<<<<< HEAD
+=======
+  "paymentMode": {
+    "Cash": 1,
+    "Online": 2
+  },
+  "paymentStatus": {
+    "Pending": 0,
+    "Received": 1,
+    "Deducted":2
+  },
+>>>>>>> 1d9e114f08b8bfd1b214ffcb0fa0fbef07bf05e1
+  "tktStatus": {
+    "active": 1,
+    "closed": 2
+  },
+  "referTypeByStatus": {
+    "1": "CTC",
+    "2": "DTD",
+    "3": "DTC"
+  },
+  "referTypeByName": {
+    "CTC": "1",
+    "DTD": "2",
+    "DTC": "3"
+  },
+  "uploadPath": "public/uploads/",
+<<<<<<< HEAD
+  "uploadAccessPath": "uploads/"
+=======
+  "uploadAccessPath": "uploads/",
+  "api": {
+    "verifyOtp": "Otp verification successfully.",
+    "verifyOtpFail": "Otp verification failed.",
+    "loginSuccess": "Login successfull.",
+    "userNotFound": "User not found.",
+    "loginFail": "Login failed.",
+    "sendOtpSuccess": "OTP sent successfully",
+    "sendOtpFail": "OTP Failed",
+    "changePasswordSuccess": "password changed successfully",
+    "changePasswordFail": "Failed to change password.",
+    "brandListSuccess": "Brand list successfully",
+    "brandListFail": "Brand list failed.",
+    "modelListSuccess": "Model list successfully",
+    "modelListFail": "Model list failed.",
+    "colorListSuccess": "Color list successfully",
+    "colorListFail": "Color list failed.",
+    "registerSuccess": "Registration successfully",
+    "registerFail": "Already registered with same number or email.",
+    "getUserDetailsSuccess": "User Details Successfully.",
+    "getUserDetailsFail": "User Details Failed.",
+    "edit_driver_detailsSuccess": "Edit Details Successfully.",
+    "edit_driver_detailsFail": "Edit Details Failed.",
+    "getDetailsSuccess": "Get Details Successfully.",
+    "getDetailsFail": "Get Detail Details Failed.",
+    "rideListSuccess": "Ride List Successfully.",
+    "rideListFail": "Ride List Failed.",
+    "rideRequestSuccess": "Ride request Successfully.",
+    "rideRequestFail": "Ride request Failed.",
+  
+    "addSupportTypeSuccess": "Support ticket type Successfully.",
+    "addSupportTypeFail": "Support ticket type Failed.",
+
+    "notificationListSuccess": "Notification List Successfully.",
+    "notificationListFail": "Notification List Failed.",
+
+    "membershipListSuccess": "Membership List Successfully.",
+    "membershipListFail": "Membership List Failed."
+  
+  },
+
+
+  "responseCode": {
+    "success": 200,
+    "error": 0,
+    "exception": 500,
+    "notFoud": 404
+  }
+>>>>>>> 1d9e114f08b8bfd1b214ffcb0fa0fbef07bf05e1
+}

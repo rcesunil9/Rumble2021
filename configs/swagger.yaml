@@ -1,0 +1,18 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Rumble
+  description: Rumble API Application
+  contact:
+    name: Rumble
+    url: 'http://xyz.com/Rumble/'
+host: '127.0.0.1:3000'
+basePath: /v1.0.0/DEV/
+schemes:
+  - http
+securityDefinitions:
+  JWT:
+    type: apiKey
+    name: x-access-token
+    in: header
+    description: Enter valid API authorization token

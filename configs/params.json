@@ -1,0 +1,64 @@
+{
+  "params" : {
+    
+    "signup" : {
+      "title" : "User signup module parameters",
+      "fields": [
+        {
+          "name"      : "name",
+          "type"      : "userName",
+          "required"  : true
+        },
+        {
+          "name"      : "emailId",
+          "type"      : "email",
+          "required"  : true
+        },
+        {
+          "name"      : "password",
+          "type"      : "password",
+          "required"  : true
+        }
+      ]
+    },
+
+    "login" : {
+      "title" : "User login module parameters",
+      "fields": [
+        {
+          "name"      : "emailId",
+          "type"      : "email",
+          "required"  : true
+        }
+      ]
+    },
+
+    "forgotPassword" : {
+      "title" : "Forgot password module parameters",
+      "fields": [
+        {
+          "name"      : "emailId",
+          "type"      : "email",
+          "required"  : true
+        }
+      ]
+    },
+
+    "changePassword" : {
+      "title" : "Change password module parameters",
+      "fields": [
+        {
+          "name"      : "oldPassword",
+          "type"      : "password",
+          "required"  : true
+        },
+        {
+          "name"      : "newPassword",
+          "type"      : "password",
+          "required"  : true
+        }
+      ]
+    }
+
+  }
+}
